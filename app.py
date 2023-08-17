@@ -7,7 +7,7 @@
 from flask import Flask,render_template,request
 import openai
 
-openai.api_key = "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"
+openai.api_key = "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"
 app = Flask(__name__)
 
 @app.route("/",methods=["GET","POST"])
